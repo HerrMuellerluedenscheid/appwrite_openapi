@@ -1,0 +1,18 @@
+[package]
+name = "appwrite_openapi"
+version = "1.4.9"
+authors = ["team@appwrite.io"]
+description = "Appwrite backend as a service cuts up to 70% of the time and costs required for building a modern application. We abstract and simplify common development tasks behind a REST APIs, to help you develop your app in a fast and secure way. For full API documentation and tutorials go to [https://appwrite.io/docs](https://appwrite.io/docs)"
+license = "BSD-3-Clause"
+edition = "2018"
+
+[dependencies]
+serde = "^1.0"
+serde_derive = "^1.0"
+serde_with = "^2.0"
+serde_json = "^1.0"
+url = "^2.2"
+uuid = { version = "^1.0", features = ["serde", "v4"] }
+[dependencies.reqwest]
+version = "^0.11"
+features = ["json", "multipart"]
