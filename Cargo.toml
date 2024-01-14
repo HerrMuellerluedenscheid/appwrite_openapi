@@ -5,7 +5,7 @@ authors = ["team@appwrite.io"]
 description = "AUTO-GENERATED client for Appwrite. For full API documentation and tutorials go to [https://appwrite.io/docs](https://appwrite.io/docs)"
 license = "BSD-3-Clause"
 edition = "2018"
-readme = "README.first.md"
+readme = "README.md"
 
 [dependencies]
 serde = "^1.0"
