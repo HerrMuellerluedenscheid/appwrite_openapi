@@ -1,6 +1,6 @@
 [package]
 name = "appwrite_openapi"
-version = "1.4.9"
+version = "1.0.0"
 authors = ["team@appwrite.io"]
 description = "AUTO-GENERATED client for Appwrite. For full API documentation and tutorials go to [https://appwrite.io/docs](https://appwrite.io/docs)"
 license = "BSD-3-Clause"
